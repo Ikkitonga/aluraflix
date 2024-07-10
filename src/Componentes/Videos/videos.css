@@ -1,0 +1,17 @@
+.container__videos {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container__videos h3 {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}

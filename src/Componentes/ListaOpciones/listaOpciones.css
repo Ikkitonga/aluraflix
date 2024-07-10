@@ -1,0 +1,18 @@
+.listaOpciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.listaOpciones label {
+    font-size: 1.3rem;
+}
+
+.listaOpciones select {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    text-align: center;
+}

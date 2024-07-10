@@ -1,0 +1,22 @@
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario__label {
+    font-size: 1.3rem;
+   
+}
+
+.formulario__input {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+
+

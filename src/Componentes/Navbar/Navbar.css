@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #2271D1;
+}
+
+.navbar img {
+    margin-left: 15px;
+}
+
+.navbar__botones {
+    margin: 0 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.boton {
+    width: 150px;
+    height: 35px;
+    background-color: #2271D1;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.boton:hover {
+    color: #2271D1;
+    background-color: white;
+}
+

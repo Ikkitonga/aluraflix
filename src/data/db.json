@@ -1,0 +1,53 @@
+{
+    "videos": [
+        {
+            "id": "1",
+            "expansion": "Wrath of the Lich King",
+            "imagen": "../public/Imagenes/imagenWOTLK.png",
+            "link": "https://youtu.be/Id-KspQtJos?si=ChCMg1lDCuPyBUVC",
+            "descripcion": "Tráiler de lanzamiento de La caída del Rey Exánime - Justicia | Wrath of the Lich King Classic"
+        },
+        {
+            "id": "2",
+            "expansion": "Wrath of the Lich King",
+            "imagen": "../public/Imagenes/imagenWOTLK.png",
+            "link": "https://youtu.be/A2KRoI9bics?si=YOoAn3zM3tvmH359",
+            "descripcion": "World of Warcraft Wrath of the Lich King: La Película (TODAS las Cinemáticas Ordenadas)"
+        },
+        {
+            "id": "3",
+            "expansion": "Cataclysm",
+            "imagen": "../public/Imagenes/imagenCata.png",
+            "link": "https://youtu.be/Wq4Y7ztznKc?si=tASdbCXLT2ha-Ycz",
+            "descripcion": "World of Warcraft: Cataclysm Cinematic Trailer"
+        },
+        {
+            "id": "4",
+            "expansion": "Cataclysm",
+            "imagen": "../public/Imagenes/imagenCata.png",
+            "link": "https://youtu.be/8XT7Q9Am8yM?si=oQo66hw9CZEmGPui",
+            "descripcion": "Cataclysm Classic Announce Trailer | World of Warcraft"
+        },
+        {
+            "id": "5",
+            "expansion": "Mists of Pandaria",
+            "imagen": "../public/Imagenes/imagenMOFP.png",
+            "link": "https://youtu.be/xjsxnOf0rRg?si=SkvTVd4yAOdWKzR3",
+            "descripcion": "World of Warcraft: Mists of Pandaria - Tráiler cinemático"
+        },
+        {
+            "id": "6",
+            "expansion": "Shadowlands",
+            "imagen": "../public/Imagenes/imagenSHADOWLANDS.png",
+            "link": "https://youtu.be/SkJCYNUB4vo?si=yJNEbIoUyNmldmhZ",
+            "descripcion": "Tráiler cinemático de World of Warcraft: Shadowlands"
+        },
+        {
+            "id": "7",
+            "expansion": "The War Within",
+            "imagen": "../public/Imagenes/imagenWARWITHIN.png",
+            "link": "https://youtu.be/y7tGkDQkyek?si=IGMAHOgNyVXi2TWF",
+            "descripcion": "Cinemática de anuncio de The War Within | World of Warcraft"
+        }
+    ]
+}
