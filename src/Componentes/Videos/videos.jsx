@@ -6,10 +6,10 @@ import { VideoContext } from "../../VideoContext.jsx"
 const Videos = (props) => {
     const { videos } = useContext(VideoContext)
     const [videosPorExpansion, setVideosPorExpancion] = useState([])
-    
+
 
     useEffect(() => {
-        // console.log('Videos have changed:', videos)
+       // console.log('Videos have changed:', videos)
 
         const agrupadosPorExpansion = videos.reduce((acc, video) => {
             const { expansion } = video
@@ -19,7 +19,7 @@ const Videos = (props) => {
             acc[expansion].push(video)
             return acc
         }, {})
-            // console.log(agrupadosPorExpansion)
+        // console.log(agrupadosPorExpansion)
         const entries = Object.entries(agrupadosPorExpansion)
         // console.log(entries)  
 
