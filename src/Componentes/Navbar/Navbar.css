@@ -27,6 +27,8 @@
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .boton:hover {

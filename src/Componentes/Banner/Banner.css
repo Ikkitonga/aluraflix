@@ -14,7 +14,25 @@
     height: 50vh;
     opacity: 0.6;
     position: absolute;
-    
+
 }
 
+@media screen and (max-width: 800px) {
+    .banner {
+        height: 35vh;
+    }
 
+    .banner__imagen {
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .banner {
+        height: 25vh;
+    }
+
+    .banner__imagen {
+        height: 25vh;
+    }
+}

@@ -37,7 +37,7 @@ const Videos = (props) => {
         <section className="container__videos">
             {videosPorExpansion.map(([expansion, videos]) => (
                 <div key={expansion}>
-                    <h3>{expansion}</h3>
+                    <h3 className="titulo__videos">{expansion}</h3>
                     <div className="video">
                         {videos.map((video) => (
                             <Card {...video} key={video.id} />

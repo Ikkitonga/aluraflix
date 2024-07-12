@@ -4,7 +4,11 @@ footer {
     justify-content: space-around;
     padding: 3.5rem;
     border-top: 1px solid #2271D1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 178, 23);
 }
+
+
 
 /* media querys */
 

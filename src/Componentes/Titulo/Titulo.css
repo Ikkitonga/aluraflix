@@ -1,8 +1,24 @@
 .titulo h1 {
     font-size: 5rem;
     position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 178, 23);
 }
 
 .titulo h3 {
     font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 170, 0);
+}
+
+/* media querys */
+
+@media screen and (max-width: 800px) {
+    .titulo h1 {
+        font-size: 3rem;
+    }
+
+    .titulo h3 {
+        font-size: 1.5rem;
+    }
 }
