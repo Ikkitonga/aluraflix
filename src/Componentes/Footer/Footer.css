@@ -5,3 +5,12 @@ footer {
     padding: 3.5rem;
     border-top: 1px solid #2271D1;
 }
+
+/* media querys */
+
+@media screen and (max-width: 580px) {
+    footer {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

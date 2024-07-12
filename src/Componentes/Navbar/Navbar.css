@@ -34,3 +34,12 @@
     background-color: white;
 }
 
+
+/* media querys */
+
+@media screen and (max-width: 580px) {
+    .navbar {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
