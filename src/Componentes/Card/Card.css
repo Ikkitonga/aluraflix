@@ -4,7 +4,7 @@
     width: 260px;
     flex-direction: column;
     text-align: center;
-    border: 1px solid #2271D1;
+    
     border-radius: 10px;
     margin: 1rem;
 }
@@ -37,10 +37,14 @@
     padding: 20px;
 }
 
+
+
 .contenedor__button {
     display: flex;
     gap: 20px;
     padding: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .card__btn {
@@ -53,6 +57,7 @@
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
+
 }
 
 .card__btn:hover {
