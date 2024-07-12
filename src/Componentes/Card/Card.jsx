@@ -7,7 +7,7 @@ import { VideoContext } from "../../VideoContext"
 const Card = ({ imagen, descripcion, expansion, id, link }) => {
 
 // funcion deleteVideo traida del videoContext
-    const {deleteVideo} = useContext(VideoContext)
+    const { deleteVideo } = useContext(VideoContext)
 
 
 // funcion para manejar el borrado del video

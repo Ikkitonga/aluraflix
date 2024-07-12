@@ -4,38 +4,47 @@ import CampoTexto from "../CampoTexto/CampoTexto"
 import "./Formulario.css"
 import ListaOpciones from "../ListaOpciones/listaOpciones"
 import { VideoContext } from "../../VideoContext"
+import { useNavigate } from "react-router-dom"
 
 
 const Formulario = (props) => {
 
-    const [titulo, setTitulo] = useState("")
+    const [descripcion, setDescripcion] = useState("")
     const [imagen, setImagen] = useState("")
     const [link, setLink] = useState("")
     const [expansion, setExpansion] = useState("")
+    const [id, setId] = useState("")
 
-
-    const { crearVideo } = props
+    const { addVideo } = useContext(VideoContext)
+    const navigate = useNavigate()
 
     // funcion para manejar el envio
 
     const manejarEnvio = (evento) => {
         evento.preventDefault()
         let datosAEnviar = {
-            titulo,
+            descripcion,
             imagen,
             link,
-            expansion
+            expansion,
+            id
         }
-        crearVideo(datosAEnviar)
+        addVideo(datosAEnviar)
+        alert("Video Creado")
+        navigate("/")
+        
+
         console.log(datosAEnviar)
+
         limpiarFormulario();
     }
 
-// limpia el formulario
+    // limpia el formulario
     const limpiarFormulario = () => {
-        setTitulo("");
+        setDescripcion("");
         setImagen("");
         setLink("");
+        setExpansion("");
     };
 
     return <section className="seccion__formulario">
@@ -58,10 +67,10 @@ const Formulario = (props) => {
                 actualizarValor={setLink}
             />
             <CampoTexto
-                titulo="titulo"
+                titulo="descripcion"
                 required
-                valor={titulo}
-                actualizarValor={setTitulo}
+                valor={descripcion}
+                actualizarValor={setDescripcion}
             />
             <ListaOpciones
                 valor={expansion}
